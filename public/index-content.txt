@@ -1,0 +1,73 @@
+Below is the text and links used in the Quiz App web page.
+Copy/paste the text as needed in your *index.html* page.
+
+-----
+
+HEADER: WPR
+MERN
+
+HTML Quiz
+By Cong Nguyen
+
+--- 
+SCREEN 1: INTRODUCTION
+
+The Test
+
+The test contains 10 questions and there is no time limit.
+The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.
+
+Count Your Score
+
+You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.
+
+
+Start the quiz
+
+Good luck!
+Start the HTML quiz ❯ 		(start quiz)
+
+--- 
+SCREEN 2: ATTEMPT QUIZ
+
+
+(10 QUESTIONS - template as below)
+Question 1 of 10 		(numbering)
+
+question 1 			(question text)
+
+    option 1			(answer 1)
+    option 2
+    option 3
+    option 4 
+
+Question 2 of 10
+...				(other questions)
+
+Submit your answers ❯ 		(submit for score)
+
+--- 
+SCREEN 3: REVIEW QUIZ
+
+
+(10 REVIEWED QUESTIONS - template as below)
+Question 1 of 10 
+
+question 1
+
+    option 1 Correct answer	(correct answer of the question)
+    option 2 Your answer	(user selected answer for the question)
+    option 3
+    option 4 
+
+Question 2 of 10
+...				(other questions)
+
+
+Result:
+1/10				(number of correct answers)
+
+10%				(corresponding percent of correctness)
+
+Practice more to improve it :D	(feedback text)
+Try again 			(restart quiz)

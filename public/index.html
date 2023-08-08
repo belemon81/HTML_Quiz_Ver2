@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Quiz</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700Proxima+Nova" rel="stylesheet" type="text/css">
+  <!--  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Đặng Quỳnh Trang">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="script.js" defer></script> -->
+</head>
+
+<body>
+  <!--
+
+    ******************************************
+    DO NOT TRANSCRIBE THE ARTICLE YOURSELF!!!!
+    ******************************************
+
+    You do not have to type in all of the text on the page!
+
+    The contents of the article is in `index-content.txt`, which is
+    included in this directory. Copy and paste the contents of that file into
+    this HTML file as needed. You should only need to add HTML to markup the
+    content.
+
+  -->
+
+  <header>
+    <!--  -->
+    <div id="course-name">WPR</div>
+    <div id="stack">
+      <div class="stack-circle rotate">M</div>
+      <div class="stack-circle rotate">E</div>
+      <div class="stack-circle rotate">R</div>
+      <div class="stack-circle rotate">N</div>
+    </div>
+  </header>
+
+  <article>
+    <section id="quiz-name">
+      <div>
+        <h1>HTML Quiz</h1>
+      </div>
+    </section>
+
+    <section id="introduction">
+      <!--  -->
+      <p id="author">By Dang Quynh Trang</p>
+      <h2>The Test</h2>
+      <p>The test contains 10 questions and there is no time limit.<br></p>
+      <p>The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.</p>
+      <h2>Count Your Score</h2>
+      <p>
+        You will get 1 point for each correct answer. At the end of the Quiz, your total score will be
+        displayed. Maximum score is 10 points.
+      </p>
+      <div id="box-start">
+        <br>
+        <h2>Start the quiz</h2>
+        <p>Good luck!</p>
+        <button id="btn-start">Start the HTML quiz ❯</button>
+      </div>
+    </section>
+
+    <section id="attempt-quiz">
+      <form action="https://wpr-quiz-api.herokuapp.com/attempts" method="POST">
+        <div>
+          <h2 class="question-index">Question 1 of 10</h2>
+          <p class="question-text">question 1</p>
+          <div class="list">
+            <label for="option1-1" class="option"><input type="radio" name="question 1" id="option1-1"
+                value="option 1">option 1</label>
+            <label for="option1-2" class="option"><input type="radio" name="question 1" id="option1-2"
+                value="option 2">option 2</label>
+            <label for="option1-3" class="option"><input type="radio" name="question 1" id="option1-3"
+                value="option 3">option 3</label>
+            <label for="option1-4" class="option"><input type="radio" name="question 1" id="option1-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 2 of 10</h2>
+          <p class="question-text">question 2</p>
+          <div class="list">
+            <label for="option2-1" class="option"><input type="radio" name="question 2" id="option2-1"
+                value="option 1">option 1</label>
+            <label for="option2-2" class="option"><input type="radio" name="question 2" id="option2-2"
+                value="option 2">option 2</label>
+            <label for="option2-3" class="option"><input type="radio" name="question 2" id="option2-3"
+                value="option 3">option 3</label>
+            <label for="option2-4" class="option"><input type="radio" name="question 2" id="option2-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 3 of 10</h2>
+          <p class="question-text">question 3</p>
+          <div class="list">
+            <label for="option3-1" class="option"><input type="radio" name="question 3" id="option3-1"
+                value="option 1">option 1</label>
+            <label for="option3-2" class="option"><input type="radio" name="question 3" id="option3-2"
+                value="option 2">option 2</label>
+            <label for="option3-3" class="option"><input type="radio" name="question 3" id="option3-3"
+                value="option 3">option 3</label>
+            <label for="option3-4" class="option"><input type="radio" name="question 3" id="option3-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 4 of 10</h2>
+          <p class="question-text">question 4</p>
+          <div class="list">
+            <label for="option4-1" class="option"><input type="radio" name="question 4" id="option4-1"
+                value="option 1">option 1</label>
+            <label for="option4-2" class="option"><input type="radio" name="question 4" id="option4-2"
+                value="option 2">option 2</label>
+            <label for="option4-3" class="option"><input type="radio" name="question 4" id="option4-3"
+                value="option 3">option 3</label>
+            <label for="option4-4" class="option"><input type="radio" name="question 4" id="option4-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 5 of 10</h2>
+          <p class="question-text">question 5</p>
+          <div class="list">
+            <label for="option5-1" class="option"><input type="radio" name="question 5" id="option5-1"
+                value="option 1">option 1</label>
+            <label for="option5-2" class="option"><input type="radio" name="question 5" id="option5-2"
+                value="option 2">option 2</label>
+            <label for="option5-3" class="option"><input type="radio" name="question 5" id="option5-3"
+                value="option 3">option 3</label>
+            <label for="option5-4" class="option"><input type="radio" name="question 5" id="option5-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 6 of 10</h2>
+          <p class="question-text">question 6</p>
+          <div class="list">
+            <label for="option6-1" class="option"><input type="radio" name="question 6" id="option6-1"
+                value="option 1">option 1</label>
+            <label for="option6-2" class="option"><input type="radio" name="question 6" id="option6-2"
+                value="option 2">option 2</label>
+            <label for="option6-3" class="option"><input type="radio" name="question 6" id="option6-3"
+                value="option 3">option 3</label>
+            <label for="option6-4" class="option"><input type="radio" name="question 6" id="option6-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 7 of 10</h2>
+          <p class="question-text">question 7</p>
+          <div class="list">
+            <label for="option7-1" class="option"><input type="radio" name="question 7" id="option7-1"
+                value="option 1">option 1</label>
+            <label for="option7-2" class="option"><input type="radio" name="question 7" id="option7-2"
+                value="option 2">option 2</label>
+            <label for="option7-3" class="option"><input type="radio" name="question 7" id="option7-3"
+                value="option 3">option 3</label>
+            <label for="option7-4" class="option"><input type="radio" name="question 7" id="option7-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 8 of 10</h2>
+          <p class="question-text">question 8</p>
+          <div class="list">
+            <label for="option8-1" class="option"><input type="radio" name="question 8" id="option8-1"
+                value="option 1">option 1</label>
+            <label for="option8-2" class="option"><input type="radio" name="question 8" id="option8-2"
+                value="option 2">option 2</label>
+            <label for="option8-3" class="option"><input type="radio" name="question 8" id="option8-3"
+                value="option 3">option 3</label>
+            <label for="option8-4" class="option"><input type="radio" name="question 8" id="option8-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 9 of 10</h2>
+          <p class="question-text">question 9</p>
+          <div class="list">
+            <label for="option9-1" class="option"><input type="radio" name="question 9" id="option9-1"
+                value="option 1">option 1</label>
+            <label for="option9-2" class="option"><input type="radio" name="question 9" id="option9-2"
+                value="option 2">option 2</label>
+            <label for="option9-3" class="option"><input type="radio" name="question 9" id="option9-3"
+                value="option 3">option 3</label>
+            <label for="option9-4" class="option"><input type="radio" name="question 9" id="option9-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 10 of 10</h2>
+          <p class="question-text">question 10</p>
+          <div class="list">
+            <label for="option10-1" class="option"><input type="radio" name="question 10" id="option10-1"
+                value="option 1">option 1</label>
+            <label for="option10-2" class="option"><input type="radio" name="question 10" id="option10-2"
+                value="option 2">option 2</label>
+            <label for="option10-3" class="option"><input type="radio" name="question 10" id="option10-3"
+                value="option 3">option 3</label>
+            <label for="option10-4" class="option"><input type="radio" name="question 10" id="option10-4"
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div id="box-submit">
+          <input id="btn-submit" type="submit" value="Submit your answers ❯">
+        </div>
+      </form>
+    </section>
+
+    <section id="review-quiz">
+      <!--  -->
+      <form>
+        <div>
+          <h2 class="question-index">Question 1 of 10</h2>
+          <p class="question-text">question 1</p>
+          <div class="list">
+            <label for="$option1-1" class="option correct-answer"><input type="radio" name="$question 1" id="$option1-1"
+                disabled value="option 1" checked>option 1<span class="label">Correct answer</span></label>
+            <label for="$option1-2" class="option"><input type="radio" name="$question 1" id="$option1-2" disabled
+                value="option 2">option 2</label>
+            <label for="$option1-3" class="option"><input type="radio" name="$question 1" id="$option1-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option1-4" class="option"><input type="radio" name="$question 1" id="$option1-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 2 of 10</h2>
+          <p class="question-text">question 2</p>
+          <div class="list">
+            <label for="$option2-1" class="option option-correct"><input type="radio" name="$question 2" id="$option2-1"
+                disabled value="option 1">option 1<span class="label">Correct answer</span></label>
+            <label for="$option2-2" class="option wrong-answer"><input type="radio" name="$question 2" id="$option2-2"
+                disabled value="option 2" checked>option 2<span class="label">Your answer</span></label>
+            <label for="$option2-3" class="option"><input type="radio" name="$question 2" id="$option2-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option2-4" class="option"><input type="radio" name="$question 2" id="$option2-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 3 of 10</h2>
+          <p class="question-text">question 3</p>
+          <div class="list">
+            <label for="$option3-1" class="option"><input type="radio" name="$question 3" id="$option3-1" disabled
+                value="option 1">option 1</label>
+            <label for="$option3-2" class="option option-correct"><input type="radio" name="$question 3" id="$option3-2"
+                disabled value="option 2">option 2<span class="label">Correct answer</span></label>
+            <label for="$option3-3" class="option"><input type="radio" name="$question 3" id="$option3-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option3-4" class="option"><input type="radio" name="$question 3" id="$option3-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 4 of 10</h2>
+          <p class="question-text">question 4</p>
+          <div class="list">
+            <label for="$option4-1" class="option"><input type="radio" name="$question 4" id="$option4-1" disabled
+                value="option 1">option 1</label>
+            <label for="$option4-2" class="option correct-answer"><input type="radio" name="$question 4" id="$option4-2"
+                disabled value="option 2" checked>option 2<span class="label">Correct answer</span></label>
+            <label for="$option4-3" class="option"><input type="radio" name="$question 4" id="$option4-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option4-4" class="option"><input type="radio" name="$question 4" id="$option4-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 5 of 10</h2>
+          <p class="question-text">question 5</p>
+          <div class="list">
+            <label for="$option5-1" class="option"><input type="radio" name="$question 5" id="$option5-1" disabled
+                value="option 1">option 1</label>
+            <label for="$option5-2" class="option"><input type="radio" name="$question 5" id="$option5-2" disabled
+                value="option 2">option 2</label>
+            <label for="$option5-3" class="option correct-answer"><input type="radio" name="$question 5" id="$option5-3"
+                disabled value="option 3" checked>option 3<span class="label">Correct answer</span></label>
+            <label for="$option5-4" class="option"><input type="radio" name="$question 5" id="$option5-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 6 of 10</h2>
+          <p class="question-text">question 6</p>
+          <div class="list">
+            <label for="$option6-1" class="option"><input type="radio" name="$question 6" id="$option6-1" disabled
+                value="option 1">option 1</label>
+            <label for="$option6-2" class="option"><input type="radio" name="$question 6" id="$option6-2" disabled
+                value="option 2">option 2</label>
+            <label for="$option6-3" class="option"><input type="radio" name="$question 6" id="$option6-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option6-4" class="option correct-answer"><input type="radio" name="$question 6" id="$option6-4"
+                disabled value="option 4" checked>option 4<span class="label">Correct answer</span></label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 7 of 10</h2>
+          <p class="question-text">question 7</p>
+          <div class="list">
+            <label for="$option7-1" class="option correct-answer"><input type="radio" name="$question 7" id="$option7-1"
+                disabled value="option 1" checked>option 1<span class="label">Correct answer</span></label>
+            <label for="$option7-2" class="option"><input type="radio" name="$question 7" id="$option7-2" disabled
+                value="option 2">option 2</label>
+            <label for="$option7-3" class="option"><input type="radio" name="$question 7" id="$option7-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option7-4" class="option"><input type="radio" name="$question 7" id="$option7-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 8 of 10</h2>
+          <p class="question-text">question 8</p>
+          <div class="list">
+            <label for="$option8-1" class="option"><input type="radio" name="$question 8" id="$option8-1" disabled
+                value="option 1">option 1</label>
+            <label for="$option8-2" class="option correct-answer"><input type="radio" name="$question 8" id="$option8-2"
+                disabled value="option 2" checked>option 2<span class="label">Correct answer</span></label>
+            <label for="$option8-3" class="option"><input type="radio" name="$question 8" id="$option8-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option8-4" class="option"><input type="radio" name="$question 8" id="$option8-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 9 of 10</h2>
+          <p class="question-text">question 9</p>
+          <div class="list">
+            <label for="$option9-1" class="option"><input type="radio" name="$question 9" id="$option9-1" disabled
+                value="option 1">option 1</label>
+            <label for="$option9-2" class="option"><input type="radio" name="$question 9" id="$option9-2" disabled
+                value="option 2">option 2</label>
+            <label for="$option9-3" class="option correct-answer"><input type="radio" name="$question 9" id="$option9-3"
+                disabled value="option 3" checked>option 3<span class="label">Correct answer</span></label>
+            <label for="$option9-4" class="option"><input type="radio" name="$question 9" id="$option9-4" disabled
+                value="option 4">option 4</label>
+          </div>
+        </div>
+        <div>
+          <h2 class="question-index">Question 10 of 10</h2>
+          <p class="question-text">question 10</p>
+          <div class="list">
+            <label for="$option10-1" class="option"><input type="radio" name="$question 10" id="$option10-1" disabled
+                value="option 1">option 1</label>
+            <label for="$option10-2" class="option"><input type="radio" name="$question 10" id="$option10-2" disabled
+                value="option 2">option 2</label>
+            <label for="$option10-3" class="option"><input type="radio" name="$question 10" id="$option10-3" disabled
+                value="option 3">option 3</label>
+            <label for="$option10-4" class="option correct-answer"><input type="radio" name="$question 10"
+                id="$option10-4" disabled value="option 4" checked>option 4<span class="label">Correct
+                answer</span></label>
+          </div>
+        </div>
+        <div id="box-result">
+          <br>
+          <h2>Result:</h2>
+          <p id="score">8/10</p>
+          <p><strong>80%</strong></p>
+          <p>Practice more to improve it :D</p>
+          <button id="btn-try-again">Try again</button>
+        </div>
+      </form>
+    </section>
+  </article>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
