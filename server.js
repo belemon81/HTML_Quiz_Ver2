@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
-const MONGO_URL = 'mongodb://localhost:27017/wpr-quiz';
+const MONGO_URL = 'mongodb://127.0.0.1:27017/wpr-quiz';
 let db = null;
 async function startServer() {
     const client = await mongodb.MongoClient.connect(MONGO_URL);
